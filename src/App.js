@@ -25,7 +25,7 @@ function reducer(state, action) {
         ...state,
         status: "error",
       };
-    case "active":
+    case "start":
       return { ...state, status: "active" };
 
     default:
